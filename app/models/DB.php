@@ -6,7 +6,7 @@ class DB{
     public $db_name = 'users';
     public $host = 'localhost';
 
-    public $admin_email = 'haskicbr@gmail.com';
+    public $admin_email = 'root@example.com';
 
 
     public function connect(){
