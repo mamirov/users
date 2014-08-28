@@ -68,14 +68,14 @@ class DB{
 
         mail($this->admin_email, 'Отчет о пользователях', $message);
         echo"<div class='container';>
-        <div class='row'>
-        <div class='col-sm-6 col-lg-offset-3'>
-        <pre>
-        $message
-        </pre>
-        </div>
+                <div class='row'>
+                     <div class='col-sm-6 col-lg-offset-3'>
+                        <pre>
+                            $message
+                        </pre>
+                    </div>
 
-        </div>
+                </div>
             </div>";
 
     }
