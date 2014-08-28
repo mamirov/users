@@ -43,7 +43,7 @@ class DB{
     public function addUser($login,$password){
         $sql = "INSERT INTO users (user_name, password, email) VALUES('$login','$password','$login@example.com')";
 
-        if(!mysql_query($sql)){echo "<script>alert('Ошибка удаления');</script>";}
+        if(!mysql_query($sql)){echo "<script>alert('Ошибка добавления');</script>";}
     }
 
 
